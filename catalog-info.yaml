@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-starter-kit
+  description: |
+    CVP Java Starter Kit
+  links:
+    - title: Website
+      url: https://www.cvpcorp.com
+    - title: Documentation
+      url: https://gitlab.cvpcorp.com/cvp/codr-old/-/blob/java-starter-kit/codr2021/java-starter-kit/README.md
+    - title: Storybook
+      url: https://backstage.io/storybook
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
